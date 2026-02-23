@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaMaster | Learn to Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .code-gradient {
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white min-h-screen">
+
+    <nav class="flex justify-between items-center px-10 py-6 border-b border-slate-800">
+        <div class="text-2xl font-bold tracking-tighter text-indigo-400">JAVA<span class="text-white">MASTER</span></div>
+        <div class="space-x-8 hidden md:flex text-slate-400">
+            <a href="#" class="hover:text-white transition">Roadmap</a>
+            <a href="#" class="hover:text-white transition">Compiler</a>
+            <a href="#" class="hover:text-white transition">Community</a>
+            <button class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-full text-sm font-semibold transition">Start Learning</button>
+        </div>
+    </nav>
+
+    <header class="px-10 py-20 text-center max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+            Master Java from <span class="text-indigo-500">Scratch.</span>
+        </h1>
+        <p class="text-slate-400 text-lg mb-10">
+            The ultimate interactive guide for beginners. No boring lectures, just pure code and instant results.
+        </p>
+        <div class="flex justify-center gap-4">
+            <button class="code-gradient px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform">Get Started Free</button>
+            <button class="border border-slate-700 px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition">View Curriculum</button>
+        </div>
+    </header>
+
+    <main class="px-6 md:px-20 py-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+        
+        <div class="bg-slate-800 rounded-2xl p-1 border border-slate-700 shadow-2xl">
+            <div class="bg-slate-900 rounded-xl p-6">
+                <div class="flex gap-2 mb-4">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    <span class="text-xs text-slate-500 ml-2 font-mono">HelloWorld.java</span>
+                </div>
+                <pre class="text-indigo-300 font-mono text-sm leading-relaxed">
+<span class="text-pink-500">public class</span> Main {
+    <span class="text-pink-500">public static void</span> main(String[] args) {
+        System.out.println(<span class="text-emerald-400">"Welcome to Java!"</span>);
+        
+        <span class="text-slate-500">// Your journey starts here</span>
+        <span class="text-pink-500">int</span> progress = <span class="text-orange-400">100</span>;
+        System.out.println(<span class="text-emerald-400">"Learning level: "</span> + progress);
+    }
+}</pre>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center">
+            <h2 class="text-3xl font-bold mb-6">Why learn with us?</h2>
+            <div class="space-y-6">
+                <div class="flex items-start gap-4">
+                    <div class="bg-indigo-900/50 p-3 rounded-lg text-indigo-400">🚀</div>
+                    <div>
+                        <h4 class="font-bold">Fast-Track Curriculum</h4>
+                        <p class="text-slate-400 text-sm">Go from Zero to Object Oriented Programming in 30 days.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="bg-purple-900/50 p-3 rounded-lg text-purple-400">💻</div>
+                    <div>
+                        <h4 class="font-bold">In-Browser IDE</h4>
+                        <p class="text-slate-400 text-sm">Write and run Java code without installing anything.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="bg-emerald-900/50 p-3 rounded-lg text-emerald-400">🏆</div>
+                    <div>
+                        <h4 class="font-bold">Earn Certificates</h4>
+                        <p class="text-slate-400 text-sm">Show your friends your verified Java coding badges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-20 text-slate-600 text-sm border-t border-slate-800 mt-20">
+        &copy; 2026 JavaMaster Project. Built for Beginners.
+    </footer>
+
+</body>
+</html>
